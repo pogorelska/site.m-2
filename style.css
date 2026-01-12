@@ -1,0 +1,77 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  
+}
+header{
+   
+    color: #addbde;
+    text-align: center;
+    background-color: #1e473c;
+}
+
+body{
+    background-color: #277075; 
+    font-family: "Courier", monospace;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
+    color: white;
+    background: url('istockphoto-1332857796-1024x1024.jpg') no-repeat center/cover;
+    text-shadow: 2px 2px 5px black;
+    font-family:"Marker Felt", fantasy ;
+}
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 0; 
+
+}
+
+.hero p {
+    font-size: 22px;
+   
+}
+
+.cta-button {
+padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 25px;
+    background-color: #28b485;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.type img{
+    width: 200px;
+}
+
+.type{
+    width: 300px;
+    text-align: center;
+    border: 2px dotted white;
+}
+
+.types{
+    display:  flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.best{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
